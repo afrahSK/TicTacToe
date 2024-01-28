@@ -13,16 +13,23 @@ h1{
 .square{
     font-size: 24px;
     font-weight: bold;
-    background-color: bisque;
+    background-color: rgb(31, 59, 132);
     text-align: center;
+    color: white;
     border: 2px solid gray;
-    height: 34px;
-    width: 34px;
+    height: 5rem;
+    width: 5rem;
     margin-right: -1px;
     margin-left: -1px;
     margin-top: -2px;
     padding: 0;
     float: left;
+    transition: all 500ms ease;
+}
+.square:hover{
+    /* border: 2px solid white; */
+    box-shadow: inset 1px 1px 7px rgb(63, 150, 236);
+    background-color: rgb(40, 90, 171);
 }
 .grid-row:after {
     clear: both;
